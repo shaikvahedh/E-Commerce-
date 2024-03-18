@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fd09039c470102101f8c8c64116d43bf" label="Customer" max_length="40" name="x_1283604_e_commer_customer" type="collection">
+        <element label="Customer Address" max_length="100" name="customer_address" type="string"/>
+        <element label="Customer Name" max_length="50" name="customer_name" type="string"/>
+        <element label="Customer Number" max_length="10" name="customer_number" type="integer"/>
+        <element label="Email" max_length="100" name="email" type="string"/>
+    </element>
+</database>

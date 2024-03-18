@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a50dcb50474102101f8c8c64116d4371" label="Order" max_length="40" name="x_1283604_e_commer_order" type="collection">
+        <element label="Order Number" max_length="10" name="order_number" type="integer"/>
+        <element label="Price" max_length="20" name="price" type="integer"/>
+        <element label="Product Name" max_length="100" name="product_name" type="string"/>
+        <element label="Quantity" max_length="10" name="quantity" type="integer"/>
+    </element>
+</database>
