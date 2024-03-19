@@ -4,5 +4,9 @@
         <element label="Product Name" max_length="50" name="product_name" type="string"/>
         <element label="Product Number" max_length="10" name="product_number" type="string"/>
         <element label="Quantity" max_length="10" name="quantity" type="integer"/>
+        <element attributes="encode_utf8=false" label="Created By" max_length="32" name="u_created_by" read_only="true" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_created_by"/>
+        </index>
     </element>
 </database>
